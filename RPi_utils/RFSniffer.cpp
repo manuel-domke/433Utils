@@ -48,6 +48,7 @@ int main(int argc, char *argv[]) {
         } else {    
    
           printf("Received %i\n", mySwitch.getReceivedValue() );
+          fflush(stdout); 
         }
     
         mySwitch.resetAvailable();
